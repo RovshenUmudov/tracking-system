@@ -1,0 +1,27 @@
+.root {
+  display: grid !important;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh !important;
+  grid-row-gap: 25px;
+}
+
+body {
+  font-size: 15px;
+}
+
+.main {
+  padding: 0 50px;
+
+   > .ant-layout {
+     height: 100%;
+   }
+}
+
+.ant-modal-close {
+  display: none;
+}
+
+.ant-alert {
+  margin-bottom: 15px !important;
+}
+

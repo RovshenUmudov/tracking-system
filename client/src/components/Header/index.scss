@@ -1,0 +1,10 @@
+.header {
+  display: grid;
+  align-items: center;
+  grid-auto-flow: column;
+  justify-content: space-between;
+
+  &[data-theme='white'] {
+    color: #fff;
+  }
+}

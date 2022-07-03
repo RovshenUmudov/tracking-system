@@ -1,0 +1,41 @@
+#issue-form {
+  max-width: 1100px;
+  width: 100%;
+
+  #issue-form-checklist {
+    .ant-btn {
+      margin-left: 5px;
+      width: calc(100% - 5px);
+    }
+  }
+
+  .ck-content {
+    min-height: 300px;
+  }
+
+  label[title='item'] {
+    display: none;
+  }
+
+  .fields-row {
+    display: grid;
+    grid-template-columns: 95% 5%;
+
+    .ck-content {
+      height: 100px;
+      min-height: auto;
+    }
+
+    &.-last {
+      .ant-form-item {
+        margin-bottom: 0;
+      }
+    }
+
+    span {
+      text-align: end;
+      margin-top: 10px;
+    }
+  }
+}
+

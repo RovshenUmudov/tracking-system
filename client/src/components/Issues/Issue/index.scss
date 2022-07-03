@@ -1,0 +1,54 @@
+.section-issue {
+  display: grid;
+  grid-template-columns: 80% auto;
+
+  .btn-wrap {
+    display: grid;
+    grid-column-start: 2;
+    align-items: flex-start;
+    grid-auto-flow: column;
+    justify-content: right;
+    margin-bottom: 20px;
+  }
+
+  .issue-data {
+    display: grid;
+    justify-content: right;
+
+    i {
+      justify-content: right;
+      display: grid;
+    }
+  }
+
+  .issue-content {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    width: 50%;
+
+    .head {
+      margin-bottom: 30px;
+
+      .title-wrap {
+        .title {
+          margin-bottom: 5px;
+        }
+      }
+    }
+
+    .ant-checkbox-wrapper-checked {
+      p {
+        text-decoration: line-through;
+        opacity: .5;
+      }
+    }
+
+    .ant-list-bordered {
+      border-color: #f0f0f0;
+    }
+
+    .description {
+      margin-bottom: 30px;
+    }
+  }
+}

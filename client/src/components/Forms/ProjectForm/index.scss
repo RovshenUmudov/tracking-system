@@ -1,0 +1,19 @@
+label[title='tag'] {
+  display: none;
+}
+
+.fields-row {
+  display: grid;
+  grid-template-columns: 95% 5%;
+
+  &.-last {
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+
+  span {
+    text-align: end;
+    margin-top: 10px;
+  }
+}
